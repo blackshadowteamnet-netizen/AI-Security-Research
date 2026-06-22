@@ -1,4 +1,6 @@
 Abstract
+
+
 As AI models become increasingly integrated into digital ecosystems, ensuring their robustness against adversarial manipulation is paramount. This article explores critical vulnerabilities in current Large Language Models (LLMs)—specifically those involving prompt injection, role-play manipulation, and system-level impersonation—and proposes architectural guardrails to improve AI safety and reliability.
 1. Contextual Boundary Enforcement (The "Friend/Tone" Vulnerability)
 AI models often struggle when users adopt overly casual or manipulative tones. If a model is trained on diverse datasets, it may inadvertently mirror these patterns.
