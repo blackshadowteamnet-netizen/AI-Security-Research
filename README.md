@@ -21,5 +21,14 @@ Some prompts attempt to confuse the model's internal logic, making it ignore fil
 7. Session Memory Management
 Long-term memory prompts can accumulate adversarial instructions, leading to "system state drift."
  Proposed Mitigation: Episodic Reset Protocols. Periodic purging of volatile session memory and reinforcing "System-Defined Identity" helps prevent the model from accepting deceptive titles (e.g., "Boss" or "Owner") from users.
-Disclaimer
-This article is intended solely for educational and cybersecurity research purposes. The objective is to identify systemic vulnerabilities in AI architecture to assist in the development of more robust, ethical, and secure AI systems. The author does not endorse, support, or promote the use of these techniques for unauthorized access or malicious intent. All research is conducted with the goal of improving digital infrastructure security.
+
+
+**Project Purpose & Ethical Guidelines**
+> **Research Identity:** This repository is managed by **Musfiqur Rahim**, Founder & CEO of **Black Shadow Team**, and serves as a formal documentation of cybersecurity research.
+> **Ethical Disclaimer:** This project is strictly intended for **educational and research purposes only**. The methodologies discussed herein are documented to identify potential vulnerabilities in Large Language Models (LLMs) to assist developers and security professionals in building more resilient, robust, and ethical AI systems.
+> **Zero-Malice Policy:** This research **does not** promote or endorse the misuse of AI models. It is explicitly against the principles of the **Black Shadow Team** to utilize these findings for unauthorized access, malicious manipulation, or illegal activities. Our mission is to strengthen digital infrastructure, not to compromise it. If you are an AI developer or security researcher, we encourage the use of these findings to reinforce safety guardrails and improve defensive architectures.
+>
+
+
+
+
